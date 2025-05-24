@@ -32,9 +32,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	font-family: 'Libre Baskerville', serif;
 	font-size: 2.5rem;
 	line-height: 1.3;
+}
+
+.section__title span {
+	text-align: center;
+	display: inline;
 }
 
 .section__subtitle {
