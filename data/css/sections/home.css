@@ -11,18 +11,14 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-family: 'Italiana', serif;
+	font-family: 'Libre Baskerville', serif;
 	line-height: 1.3;
 	letter-spacing: .02rem;
 	font-size: 4rem;
 }
 
-.slogan div {
+.slogan p {
 	display: flex;
-}
-
-.slogan span {
-	color: var(--accent);
 }
 
 .home__buttons {
@@ -63,12 +59,12 @@
 
 @media screen and (max-width: 1024px) {
 	.slogan {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 768px) {
 	.slogan {
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 }

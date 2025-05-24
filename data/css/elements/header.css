@@ -56,7 +56,21 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.header {
+		padding: .75rem var(--side-padding);
+	}
+
 	.header nav {
 		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.logo img {
+		width: 2.5rem;
+	}
+
+	.logo p {
+		font-size: 1.75rem;
 	}
 }
